@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            background-color: #f8f9fa;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .container {
+            margin-top: 50px;
+            color: white;
+        }
+        body {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: midnightblue;
+            color: white;
+        }
+
+        .brand-logo {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+        }
+
+        .luca {
+            background-size: cover;
+        }
+
+        .home-button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .home-button img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .center-text {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            font-size: 80px;
+            text-align: center;
+            margin-top: 300px;
+        }
+
+        nav {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 50px;
+            text-decoration: none;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            text-decoration: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+    
+        }
+
+        .btn btn-primary {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+        }
+
+        .btn btn-primary:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        footer {
+            background-color: gray;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-top: 200px;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .gmail {
+        height: 40px;
+        width: 40px;
+        }
+
+        .instagram {
+        height: 40px;
+        width: 40px;
+        }
+
+        .facebook {
+        height: 40px;
+        width: 40px;
+        }
+
+        .copyright {
+            margin-top: 10px;
+        }
+
+        .about-picture {
+            height: 300px;
+            width: 300px;
+            border-radius: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .about-description {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        .about-me {
+            color: white;
+        }
+
+        .p1 {
+            color: white;
+        }
+
+        .quote {
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body class="luca" background="images/cesar-couto-sKuVjm0xyLY-unsplash.jpg">
+    <header>
+        <div class="brand-logo">MCAAPEL Web Design and <br>Development Services</div>
+        <a class="home-button" href="index.html"><img src="images/house.jpg"></a>
+    </header>
+
+<div class="container">
+    <form id="contactForm">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="emailOrPhone">Email or Phone Number</label>
+                <input type="text" class="form-control" id="emailOrPhone" placeholder="Enter your email or phone number" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter your address" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="postalCode">Postal Code</label>
+                <input type="text" class="form-control" id="postalCode" placeholder="Enter your postal code" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="writeSomething">Message:</label>
+            <textarea class="form-control" id="writeSomething" rows="4" placeholder="Write something..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- Custom JavaScript -->
+<script>
+    // Example JavaScript code for form submission
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+        // You can add your custom logic here for form submission, e.g., AJAX request
+        alert('Form submitted!');
+    });
+</script>
+
+<footer>
+    <div class="social-media">
+        <p><a href="mailto:pelmatthew.info@gmail.com"><img class="gmail" src="images/icons8-gmail-50.png"></a> | <a href="https://www.instagram.com/pel.cornelius/"><img class="instagram" src="images/icons8-instagram-50.png"></a> | <a href="https://www.facebook.com/mattcor.pel27"><img class="facebook" src="images/icons8-facebook-50.png"></a></p>
+    </div>
+    <p class="copyright">Copyright 2024 Cornelius Pel. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: midnightblue;
+    color: white;
+}
+
+.brand-logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.luca {
+    background-size: cover;
+}
+
+.home-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.home-button img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.center-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+.h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.7;
+  font-size: 24px;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  border-color: white;
+  border-style: hidden;
+}
+
+.intro {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.7;
+  font-size: 16px;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  border-color: white;
+  border-style: hidden;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.card-mb-4 .card-img-top {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.card-img-top:hover {
+  opacity: .5;
+}
+
+.desc {
+  color: white;
+}
+
+footer {
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    color: white;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.gmail {
+  height: 30px;
+  width: 30px;
+}
+
+.instagram {
+  height: 30px;
+  width: 30px;
+}
+
+.facebook {
+  height: 30px;
+  width: 30px;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+.about-picture {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-description {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.about-me {
+    color: white;
+}
+
+.p1 {
+    color: white;
+}
+
+.quote {
+    color: white;
+}
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    margin-top: 50px;
+    height: 300px;
+    padding: 0 6px;
+    float: left;
+    width: 20%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+

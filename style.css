@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: midnightblue;
+    color: white;
+}
+
+.brand-logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.luca {
+    background-size: cover;
+}
+
+.home-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.home-button img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.center-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+footer {
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 110px;
+    margin-top: 215px;
+    color: white;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.social-media a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.gmail {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .instagram {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .facebook {
+    height: 30px;
+    width: 30px;
+  }
+
+.copyright {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.about-picture {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.about-description {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.about-me {
+    color: white;
+}
+
+.p1 {
+    color: white;
+    font-size: 20px;
+}
+
+.quote {
+    color: white;
+    font-size: 20px;
+}
+
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+
