@@ -1,34 +1,121 @@
-<!-- index.html (Homepage) -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>MCAAPEL Web Design and Development Services</title>
-</head>
-<body class="luca" background="images/desk-background.jpg">
-    <header>
-        <div class="brand-logo">MCAAPEL Web Design and <br>Development Services</div>
-        <a class="home-button" href="index.html"><img src="images/house.jpg"></a>
-    </header>
-    <main>
-        <h1 class="center-text">MCAAPEL<br>Web Design and Development<br>Services</h1>
-        <nav>
-            <ul>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About Me</a></li>
-            </ul>
-        </nav>
-    </main>
-    <footer>
-        <div class="social-media">
-            <p><a href="mailto:pelmatthew.info@gmail.com"><img class="gmail" src="images/icons8-gmail-50.png"></a> | <a href="https://www.instagram.com/pel.cornelius/"><img class="instagram" src="images/icons8-instagram-50.png"></a> | <a href="https://www.facebook.com/mattcor.pel27"><img class="facebook" src="images/icons8-facebook-50.png"></a></p>
-        </div>
-        <p class="copyright">Copyright 2024 Cornelius Pel. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<title>Slamdunk</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			padding: 0px;
+			margin: 0px;
+		}
+		body {
+			background-image: url("Shohoku.jpg");
+			background-size: cover;
+		}
+		section {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-gap: 20px;
+			padding: 20px;
+		}
+		article {
+			position: relative;
+			height: 90px;
+			overflow: hidden;
+			transition: height 1s;
+		}
+		nav {
+			padding: 10px;
+			border: solid 2px black;
+			background-color: lightgray;
+		}
+		article:hover {
+			height: 100%;
+		}
 
+		section article img {
+			width: 100%;
+		}
+
+		h2 {text-align: center;}
+
+
+
+	</style>
+</head>
+<body>
+
+<br><br><br><br><br>
+<br>
+	<section>
+		<article>
+			<nav>
+				<h2>Ryota Miyagi</h2>
+			</nav>
+			<img src="Riyota.png">
+		</article>
+
+		<article>
+			<nav>
+				<h2>Hanamichi Sakuragi</h2>
+			</nav>
+			<img src="Hanamichi.jpg">
+		</article>
+
+		<article>
+			<nav>
+				<h2>Kaede Rukawa</h2>
+			</nav>
+			<img src="Rukawa.jpg">
+		</article>
+
+		<article>
+			<nav>
+				<h2>Takenori Akagi</h2>
+			</nav>
+			<img src="Akagi.jpg">
+		</article>
+
+		<article>
+			<nav>
+				<h2>Hisashi Mitsui</h2>
+			</nav>
+			<img src="Mitsui.jpg">
+		</article>
+
+		<article>
+			<nav>
+				<h2>Kiminobu Kogure</h2>
+			</nav>
+			<img src="Kogure.png">
+		</article>
+</section><br><br><br><br><br>
+
+<center>
+<video width="500" height="300" controls>
+      <source src=”https://www.youtube.com/watch?v=m_QP5_rdH_g&t=9s” type=video/ogg>
+      <source src="Slam Dunk  Opening 1 HD.mp4" type=video/mp4>
+</video>
+</center>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
